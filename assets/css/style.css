@@ -43344,7 +43344,7 @@ span.select2-selection.select2-selection--single:focus {
   object-fit: cover;
   border-radius: 12px;
   transition: 0.5s ease-in-out;
-  filter: brightness(70%);
+  filter: brightness(50%);
 }
 
 .cta .text {
@@ -43360,6 +43360,20 @@ span.select2-selection.select2-selection--single:focus {
   transition: 0.5s ease-in-out;
 }
 
+.cta .para {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%) translateZ(50px);
+  text-align: center;
+  color: #fff;
+  padding: 15px;
+  z-index: 2;
+  pointer-events: none;
+  transition: 0.5s ease-in-out;
+}
+
+
 .cta .text h2 {
   font-weight: 500;
   font-size: 30px;
@@ -43368,8 +43382,10 @@ span.select2-selection.select2-selection--single:focus {
   width: max-content;
 }
 
-.cta .text p {
+.cta .para p {
   font-weight: 300;
   font-size: 16px;
   margin: 0;
+  width: 320px;
+  color: white;
 }
