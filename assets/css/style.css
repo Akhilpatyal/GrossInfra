@@ -5353,6 +5353,9 @@ textarea.is-invalid {
   position: relative;
   z-index: 2;
 }
+.title-area p{
+ text-align: justify;
+}
 
 .title-area .sec-title {
   margin-bottom: 9px;
@@ -17808,6 +17811,8 @@ span.select2-selection.select2-selection--single:focus {
 .about-contact-grid.style2 {
   background: #301934;
   border-radius: 8px;
+  height: -webkit-fill-available;
+    align-items: center;
 }
 
 .about-contact-grid.style2 .about-contact-icon {
@@ -38432,7 +38437,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .about-wrap15 p {
-  max-width: 428px;
+  /* max-width: 428px; */
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 16px;
@@ -43388,4 +43394,12 @@ span.select2-selection.select2-selection--single:focus {
   margin: 0;
   width: 320px;
   color: white;
+}
+.portfolio-img img{
+
+  height: 295px;
+  object-fit: cover;
+}
+.box-content p{
+  margin: 0px;
 }
