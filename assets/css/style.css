@@ -83,7 +83,7 @@
 /*------------------- 1.3. Variable-------------------*/
 :root {
   --theme-color: #1C2D37;
-  --theme-color2: #EED26E;
+  --theme-color2: #A85307;
   --theme-color3: #423A2F;
   --title-color: #0D0D0C;
   --title-dark: #364440;
@@ -104,7 +104,7 @@
   --gray-color6: #968D81;
   --gray-color7: #ECE5DB;
   --white-color: #ffffff;
-  --light-color: #A4B5BA;
+  --light-color: #ffffff;
   --light-color2: #FBF5EC;
   --yellow-color: #E2B93B;
   --success-color: #27AE60;
@@ -5353,8 +5353,9 @@ textarea.is-invalid {
   position: relative;
   z-index: 2;
 }
-.title-area p{
- text-align: justify;
+
+.title-area p {
+  text-align: justify;
 }
 
 .title-area .sec-title {
@@ -6000,7 +6001,7 @@ hr.title-line {
 
 /*------------------- 3.7. Background -------------------*/
 .bg-theme {
-  background-color: #301934 !important;
+  background-color: #83AA5D !important;
 }
 
 .bg-theme2 {
@@ -6084,7 +6085,8 @@ hr.title-line {
 }
 
 .bg-title-dark {
-  background: linear-gradient(135deg, #301934, #3c1e49) !important;
+  background:  #83AA5D !important;
+  /* background: linear-gradient(135deg, #301934, #3c1e49) !important; */
   animation: gradientMove 6s ease infinite;
   background-size: 400% 400%;
 }
@@ -9555,7 +9557,8 @@ ol.wp-block-rss {
   top: 0;
   right: 0;
   left: 0;
-  background-color: #301934;
+  background-color: #A85307
+;
   -webkit-filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.07));
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.07));
   -webkit-animation: stickyAni 0.4s ease-in-out;
@@ -10157,7 +10160,7 @@ ol.wp-block-rss {
 
 /* Header default ---------------------------------- */
 .header-default {
-  background: #301934;
+  background: #A85307;
 }
 
 .header-default .main-menu>ul>li>a:before {
@@ -10192,6 +10195,7 @@ ol.wp-block-rss {
 .header-default .header-logo {
   position: relative;
   z-index: 2;
+  background-color: white;
 }
 
 .header-default .th-menu-toggle {
@@ -10200,6 +10204,7 @@ ol.wp-block-rss {
 
 .header-default .sticky-wrapper.sticky .header-logo {
   margin-top: 0px;
+  background-color: white;
 }
 
 .header-default .sticky-wrapper.sticky .main-menu>ul>li>a {
@@ -17812,7 +17817,7 @@ span.select2-selection.select2-selection--single:focus {
   background: #301934;
   border-radius: 8px;
   height: -webkit-fill-available;
-    align-items: center;
+  align-items: center;
 }
 
 .about-contact-grid.style2 .about-contact-icon {
@@ -21946,8 +21951,12 @@ span.select2-selection.select2-selection--single:focus {
 .service-card.style4 .service-card-icon img {
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  -webkit-filter: brightness(9) contrast(0.4);
-  filter: brightness(9) contrast(0.4);
+  /* -webkit-filter: brightness(9) contrast(0.4);
+  filter: brightness(9) contrast(0.4); */
+  filter: invert();
+}
+.service-card.style4 .projectApplication img {
+  filter: invert(1);
 }
 
 .service-card.style4 .box-title {
@@ -28215,6 +28224,8 @@ span.select2-selection.select2-selection--single:focus {
 .property-card4 .property-card-thumb {
   overflow: hidden;
   position: relative;
+   border-radius: 18px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .property-card4 .property-card-thumb img {
@@ -43315,7 +43326,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .process-page-wrap .process-card .box-content {
   margin-left: 30px;
-  padding: 9px 0px 2px 48px;
+  padding: 10px 0px 10px 43px;
 }
 
 
@@ -43395,11 +43406,55 @@ span.select2-selection.select2-selection--single:focus {
   width: 320px;
   color: white;
 }
-.portfolio-img img{
+
+.portfolio-img img {
 
   height: 295px;
   object-fit: cover;
 }
-.box-content p{
+
+.box-content p {
   margin: 0px;
 }
+
+.application-Card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(50, 50, 93, 0.2) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.2) 0px 18px 36px -50px inset;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 0.4s ease-in-out, scale 0.4s ease-in-out;
+  height: 100%;
+}
+
+.application-Card:hover {
+  scale: 1.05;
+  cursor: pointer;
+}
+
+.margin-lr {
+  margin: 0px 5px;
+}
+
+.fs-25 {
+  font-size: 25px !important;
+}
+.productappContainer .service-card{
+  border: 1px solid white;
+  padding: 16px 18px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: -webkit-fill-available;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.15);
+}
+.b-r-24 {
+   border-radius: 24px!important;
+}
+
