@@ -9572,7 +9572,7 @@ ol.wp-block-rss {
   font-weight: 400;
   top: 0;
   font-size: 0.9em;
-  color: var(--white-color);
+  color: #a25927;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
