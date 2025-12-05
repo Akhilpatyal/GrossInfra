@@ -4250,15 +4250,15 @@ textarea.is-invalid {
 }
 
 .th-btn.style-border {
-  border: 1px solid var(--white-color);
+  border: 1px solid #a25927;
   padding: 16px 24px;
-  background: transparent;
+  background: #a25927;
 }
 
 .th-btn.style-border.th-btn-icon:after {
   -webkit-filter: brightness(0) grayscale(9) invert(2);
   filter: brightness(0) grayscale(9) invert(2);
-  color: var(--white-color);
+  color: #a25927;
   width: 22px;
   height: 22px;
 }
@@ -4277,7 +4277,7 @@ textarea.is-invalid {
 
 .th-btn.style-border:hover {
   background: var(--white-color);
-  color: var(--title-color);
+  color: #a25927;
 }
 
 .th-btn.style-border:hover.th-btn-icon:after {
@@ -9490,7 +9490,7 @@ ol.wp-block-rss {
   top: 0;
   right: 0;
   left: 0;
-  background-color: #A85307;
+  background-color: #ffffff;
   -webkit-filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.07));
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.07));
   -webkit-animation: stickyAni 0.4s ease-in-out;
@@ -9531,7 +9531,7 @@ ol.wp-block-rss {
   font-weight: 400;
   font-size: 16px;
   font-family: var(--body-font);
-  color: var(--white-color);
+  color: #a25927;
 }
 
 .main-menu a:hover {
@@ -9780,7 +9780,7 @@ ol.wp-block-rss {
   display: block;
   height: 1px;
   width: 32px;
-  background: var(--white-color);
+  background:#a25927;
   margin: auto;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -10092,7 +10092,7 @@ ol.wp-block-rss {
 
 /* Header default ---------------------------------- */
 .header-default {
-  background: #A85307;
+  background: #ffffff;
 }
 
 .header-default .main-menu>ul>li>a:before {
@@ -10100,7 +10100,7 @@ ol.wp-block-rss {
   position: absolute;
   height: 1px;
   left: 0;
-  background: var(--white-color);
+  background: #a25927;
   width: 0%;
   margin-top: 30px;
   -webkit-transition: 0.4s;
@@ -10108,11 +10108,11 @@ ol.wp-block-rss {
 }
 
 .header-default .main-menu>ul>li>a:hover {
-  color: var(--white-color);
+  color: #a25927;
 }
 
 .header-default .main-menu>ul>li>a:hover:after {
-  color: var(--white-color);
+  color: #a25927;
 }
 
 .header-default .main-menu>ul>li>a:hover:before {
