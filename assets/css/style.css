@@ -4098,6 +4098,16 @@ textarea.is-invalid {
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
+.th-btn.th-btn-icon2:after {
+  content: '';
+  position: relative;
+  background-image: url(/assets/img/products/pdf.png)!important;
+  background-size: 100% 100%;
+  width: 16px;
+  height: 16px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
 
 .th-btn:before {
   content: "";

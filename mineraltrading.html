@@ -124,18 +124,22 @@
             </div>
             <div class="th-mobile-menu">
                 <ul>
-                    <li>
+                    <li class="menu-item-has-children">
                         <a href="index.html">
                             Home
                         </a>
+                        <ul class="sub-menu">
+                            <li><a href="allprojects.html">Real Estate</a></li>
+                            <li><a href="mineraltrading.html">Mineral Trading</a></li>
 
+                        </ul>
                     </li>
                     <li><a href="about.html">
                             About Us
                         </a></li>
 
                     <li class="menu-item-has-children">
-                        <a href="mineraltrading.html">
+                        <a href="productLabs.html">
                             Products
                         </a>
                         <ul class="sub-menu">
@@ -237,14 +241,21 @@
                         <div class="col-auto">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
-                                    <li><a href="index.html">
+                                    <li class="menu-item-has-children">
+                                        <a href="index.html">
                                             Home
-                                        </a></li>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li><a href="allprojects.html">Real Estate</a></li>
+                                            <li><a href="mineraltrading.html">Mineral Trading</a></li>
+
+                                        </ul>
+                                    </li>
                                     <li><a href="about.html">
                                             About Us
                                         </a></li>
                                     <li class="menu-item-has-children">
-                                        <a href="mineraltrading.html">
+                                        <a href="productLabs.html">
                                             Products
                                         </a>
                                         <ul class="sub-menu">
@@ -273,8 +284,7 @@
                         </div>
                         <div class="col-auto d-none d-xxl-block">
                             <div class="header-button">
-                                <a href="contact.html" class="th-btn style-border th-btn-icon">Request
-                                    A Visit</a>
+                                <a href="contact.html" class="th-btn style-border th-btn-icon th-btn-icon2">Download</a>
                                 <button type="button" class="simple-icon sideMenuInfo sidebar-btn style2">
                                     <span class="line"></span>
                                     <span class="line"></span>
@@ -363,7 +373,7 @@ Products
         <div class="container p-0">
             <div class="slider-area project-slider2">
                 <div class="swiper th-slider" id="projectSlider2"
-                    data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"}}}'>
+                    data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"}},"grabCursor":"true","slideToClickedSlide":"true","loop":"true"}'>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="portfolio-card style2">
@@ -372,18 +382,9 @@ Products
                                     <img src="assets/img/products/toothpaste.jpg" alt="project image">
 
                                 </div>
-                                <!-- <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="#">Calcium Carbonate for Tooth Paste
-                                            Industry</a></h3>
-                                    <p class="portfolio-text">Precipitated Calcium Carbonate is used as a cleaning and
-                                        polishing agent in DENTRIFRICE industry such as Tooth Paste and Tooth Powder for
-                                        optimum abrasiveness of Teeth. It improves Teeth Strength also. It has Aragonite
-                                        structure.</p>
 
-                                </div> -->
                             </div>
                         </div>
-
                         <div class="swiper-slide">
                             <div class="portfolio-card style2">
                                 <div class="portfolio-img img-shine" data-bs-toggle="modal"
@@ -391,20 +392,9 @@ Products
                                     <img src="assets/img/products/Pharmaceuticals.jpg" alt="project image">
 
                                 </div>
-                                <!-- <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="#">Calcium Carbonate for Pharmaceuticals
-                                            Industry</a>
-                                    </h3>
-                                    <p class="portfolio-text">Calcium Carbonate is used as a Calcium source in
-                                        Pharmaceutical Industry such as Tablets and efficient antacid neutralizer. The
-                                        elemental calcium brought into the body with each dose meet the daily calcium
-                                        requirement that contributes to healthy bones and help to prevent osteoporosis.
-                                    </p>
 
-                                </div> -->
                             </div>
                         </div>
-
                         <div class="swiper-slide">
                             <div class="portfolio-card style2">
                                 <div class="portfolio-img img-shine" data-bs-toggle="modal"
@@ -413,18 +403,9 @@ Products
                                         style="height: 283px; object-fit: cover;">
 
                                 </div>
-                                <!-- <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="#">Calcium Carbonate for Paper Industry</a>
-                                    </h3>
-                                    <p class="portfolio-text">Precipitated Calcium Carbonate is used as a filler and
-                                        surface coating agent in Paper Industry such as Office Paper & Cigarette/ Tissue
-                                        Paper for premium quality paper products. It enhances brightness, smoothness and
-                                        improves opacity.</p>
 
-                                </div> -->
                             </div>
                         </div>
-
                         <div class="swiper-slide">
                             <div class="portfolio-card style2">
                                 <div class="portfolio-img img-shine" data-bs-toggle="modal"
@@ -433,17 +414,9 @@ Products
                                         style="height: 283px; object-fit: cover;">
 
                                 </div>
-                                <!-- <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="#">Food Industry Calcium Carbonate</a></h3>
-                                    <p class="portfolio-text">Precipitated Calcium Carbonate is used as food additives
-                                        and calcium supplements in Food Industry such as a Chewing gums, Noodles,
-                                        Biscuits, Bread & Nutrition which is helpful for the growth of body as well as
-                                        strong bones.</p>
 
-                                </div> -->
                             </div>
                         </div>
-
                         <div class="swiper-slide">
                             <div class="portfolio-card style2">
                                 <div class="portfolio-img img-shine" data-bs-toggle="modal"
@@ -452,17 +425,53 @@ Products
                                         style="height: 283px; object-fit: cover;">
 
                                 </div>
-                                <!-- <div class="portfolio-content">
-                                    <h3 class="portfolio-title"><a href="#">Calcium Carbonate for Cosmetics Industry</a>
-                                    </h3>
-                                    <p class="portfolio-text">Precipitated Calcium Carbonate is used as an Ingredient in
-                                        Cosmetic Industry such as a Face wash & Talcum Powder which upsurge the
-                                        capability of Cosmetics to fascinate moisture.</p>
 
-                                </div> -->
                             </div>
                         </div>
+                        <div class="swiper-slide">
+                            <div class="portfolio-card style2">
+                                <div class="portfolio-img img-shine" data-bs-toggle="modal"
+                                    data-bs-target="#portfolioModal">
+                                    <img src="assets/img/products/Poultry_Feed.jpg" alt="project image"
+                                        style="height: 283px; object-fit: cover;">
 
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="portfolio-card style2">
+                                <div class="portfolio-img img-shine" data-bs-toggle="modal"
+                                    data-bs-target="#portfolioModal">
+                                    <img src="assets/img/products/pesticides.jpg" alt="project image"
+                                        style="height: 283px; object-fit: cover;">
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="portfolio-card style2">
+                                <div class="portfolio-img img-shine" data-bs-toggle="modal"
+                                    data-bs-target="#portfolioModal">
+                                    <img src="assets/img/products/Cattle_Feed.jpg" alt="project image"
+                                        style="height: 283px; object-fit: cover;">
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="portfolio-card style2">
+                                <div class="portfolio-img img-shine" data-bs-toggle="modal"
+                                    data-bs-target="#portfolioModal">
+                                    <img src="assets/img/products/glass.png" alt="project image"
+                                        style="height: 283px; object-fit: cover;">
+
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -498,9 +507,11 @@ Property Area 4
                                     <img src="assets/img/products/Hydrated Lime.jpg" alt="project image">
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title darkGreen"><a href="contact.html">Hydrated lime /slaked lime </a></h3>
+                                    <h3 class="portfolio-title darkGreen"><a href="contact.html">Hydrated lime /slaked
+                                            lime </a></h3>
 
-                                    <p class="portfolio-text">Hydrated lime /slaked lime  is used in water purification, wastewater
+                                    <p class="portfolio-text">Hydrated lime /slaked lime is used in water purification,
+                                        wastewater
                                         treatment, and chemical processing applications.</p>
                                 </div>
                             </div>
@@ -512,9 +523,11 @@ Property Area 4
                                     <img src="assets/img/products/Quick-Limestones.png" alt="project image">
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title darkGreen"><a href="contact.html">Quick lime / burnt lime</a></h3>
+                                    <h3 class="portfolio-title darkGreen"><a href="contact.html">Quick lime / burnt
+                                            lime</a></h3>
 
-                                    <p class="portfolio-text">Quick lime / burnt lime powder is used for water treatment, pH
+                                    <p class="portfolio-text">Quick lime / burnt lime powder is used for water
+                                        treatment, pH
                                         adjustment, and improving industrial process efficiency.</p>
                                 </div>
                             </div>
@@ -542,7 +555,7 @@ Property Area 4
                                 <div class="portfolio-content">
                                     <h3 class="portfolio-title darkGreen"><a href="contact.html">Lime stone </a></h3>
 
-                                    <p class="portfolio-text">Lime stone  is widely used as a key raw material in cement
+                                    <p class="portfolio-text">Lime stone is widely used as a key raw material in cement
                                         manufacturing, providing the essential calcium component needed for strong and
                                         durable construction materials.</p>
                                 </div>
@@ -555,7 +568,8 @@ Property Area 4
                                     <img src="assets/img/products/Diatomaceous Earth.jpg" alt="project image">
                                 </div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title darkGreen"><a href="contact.html">Anti Moisture powder</a>
+                                    <h3 class="portfolio-title darkGreen"><a href="contact.html">Anti Moisture
+                                            powder</a>
                                     </h3>
 
                                     <p class="portfolio-text">Anti Moisture powder is used for filtration, moisture
