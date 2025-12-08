@@ -43447,3 +43447,23 @@ height: 64px;
     font-size: 28px;
     font-weight: bold;
 }
+.overlay-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.black-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.35); /* Adjust darkness: 0.3 - 0.7 */
+}
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    z-index: 2;
+}
