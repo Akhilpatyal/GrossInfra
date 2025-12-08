@@ -43434,3 +43434,16 @@ span.select2-selection.select2-selection--single:focus {
 .application-Card .items img{
 height: 64px;
 }
+.center-text {
+ width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
