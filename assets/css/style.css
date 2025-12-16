@@ -3784,7 +3784,7 @@ textarea.is-invalid {
 }
 
 .th-menu-toggle {
-  width: 56px!important;
+  width: 56px !important;
   height: 56px;
   padding: 0;
   font-size: 20px;
@@ -4098,10 +4098,11 @@ textarea.is-invalid {
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
+
 .th-btn.th-btn-icon2:after {
   content: '';
   position: relative;
-  background-image: url(../img/products/pdf.png)!important;
+  background-image: url(../img/products/pdf.png) !important;
   background-size: 100% 100%;
   width: 16px;
   height: 16px;
@@ -5298,7 +5299,7 @@ textarea.is-invalid {
 }
 
 .title-area p {
-  text-align: justify!important;
+  text-align: justify !important;
 }
 
 .title-area .sec-title {
@@ -9790,7 +9791,7 @@ ol.wp-block-rss {
   display: block;
   height: 1px;
   width: 32px;
-  background:#a25927;
+  background: #a25927;
   margin: auto;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -10318,7 +10319,7 @@ ol.wp-block-rss {
 }
 
 .header-layout3 .sticky-wrapper.sticky {
-  background: #301934;
+  background: #ffffff;
 }
 
 .header-layout3 .main-menu>ul>li>a {
@@ -22024,7 +22025,7 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 575px) {
   .process-card .box-content {
-    padding: 27px 50px 27px 64px;
+    padding: 21px 21px 17px 44px;
   }
 }
 
@@ -24335,7 +24336,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .property-tab .nav-item .nav-link.active {
-  background: #301934;
+  background: #a25927;
   color: var(--white-color);
 }
 
@@ -24794,8 +24795,8 @@ span.select2-selection.select2-selection--single:focus {
 
 .property-page-single .property-grid-list {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  background: #301934;
+  grid-template-columns: repeat(4, 1fr);
+  background: #a25927;
   border-radius: 8px;
   padding: 40px 45px;
   list-style: none;
@@ -26267,6 +26268,7 @@ span.select2-selection.select2-selection--single:focus {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 .py-60 {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -27993,7 +27995,11 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 575px) {
   .hero-thumb6-1 {
-    display: block;
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .hero-thumb6-1 .img1 {
@@ -28295,7 +28301,7 @@ span.select2-selection.select2-selection--single:focus {
 .property-card4 .property-card-locations {
   font-size: 16px;
   font-weight: 400;
-  color:#122400;
+  color: #122400;
   margin-top: 24px;
   margin-bottom: 15px;
 }
@@ -30999,7 +31005,7 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 575px) {
   .contact-wrap5 {
-    padding: 30px;
+    padding: 0px;
   }
 }
 
@@ -43331,7 +43337,7 @@ span.select2-selection.select2-selection--single:focus {
   transform: translate(-50%, 0%) translateZ(50px);
   text-align: center;
   color: #fff;
-    padding: 20px 0px;
+  padding: 20px 0px;
   z-index: 2;
   pointer-events: none;
   transition: 0.5s ease-in-out;
@@ -43406,6 +43412,7 @@ span.select2-selection.select2-selection--single:focus {
 .b-r-24 {
   border-radius: 24px !important;
 }
+
 .textgradient {
   background: linear-gradient(to top, #a85307, #000000);
   -webkit-background-clip: text;
@@ -43413,57 +43420,74 @@ span.select2-selection.select2-selection--single:focus {
   background-clip: text;
   color: transparent;
 }
+
 .textgradient2 {
-  background: linear-gradient(to top, #83AA5D , #000000);
+  background: linear-gradient(to top, #83AA5D, #000000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
 }
-.darkGreen a{
-  color: #122400!important;
+
+.darkGreen a {
+  color: #122400 !important;
 }
-.bg-color{
-  background-color:#0b0400;
+
+.bg-color {
+  background-color: #0b0400;
 }
-.application-Card .items{
+
+.application-Card .items {
   background-color: #83aa5d;
   padding: 20px;
   border-radius: 50%;
 }
-.application-Card .items img{
-height: 64px;
+
+.application-Card .items img {
+  height: 64px;
 }
+
 .center-text {
- width: max-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 28px;
-    font-weight: bold;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
 }
+
 .overlay-container {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .black-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,0.35); /* Adjust darkness: 0.3 - 0.7 */
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  /* Adjust darkness: 0.3 - 0.7 */
 }
+
 .center-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 25px;
-    font-weight: 600;
-    z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.service-card.style4 .box-title {
+  background: linear-gradient(to right, #a85307, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
