@@ -286,10 +286,9 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="col-auto d-none d-xl-block">
+                        <div class="col-auto d-none d-md-block">
                             <div class="header-button">
-                                <a href="contact.html" class="th-btn style-border th-btn-icon">Request
-                                    A Visit</a>
+                              <a href="contact.html" class="th-btn style-border th-btn-icon th-btn-icon2">Download</a>
                             </div>
                         </div>
                     </div>
@@ -450,7 +449,7 @@ About Area
                         </div>
                     </div>
                     <div class="btn-wrap mt-4">
-                        <a href="about.html" class="th-btn style2 th-btn-icon">More About
+                        <a href="about.html" class="th-btn style2 th-btn-icon" data-bs-toggle="modal" data-bs-target="#auditModal">More About
                         </a>
                     </div>
                 </div>
@@ -1587,6 +1586,12 @@ About Area
 			Code End  Here 
 	******************************** -->
 
+    <!-- whatsapp -->
+
+    <a href="https://wa.me/9818349862" class="whatsapp-button" target="_blank" title="Chat with us">
+        <span class="whatsapp-icon"><i class="fa-brands fa-whatsapp"></i></span>
+    </a>
+
     <!-- Scroll To Top -->
     <div class="scroll-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
@@ -1595,6 +1600,54 @@ About Area
             </path>
         </svg>
     </div>
+
+     <!-- add popup -->
+    <!-- Modal -->
+    <div class="modal fade" id="auditModal" tabindex="-1">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="container">
+            <div class="modal-content audit-modal">
+                <button type="button" class="btn-close btn-close-white audit-close" data-bs-dismiss="modal">X</button>
+
+                <div class="row g-0">
+                    <!-- Left Image Section -->
+                    <div class="col-lg-5 d-none d-lg-block audit-left"></div>
+
+                    <!-- Right Form Section -->
+                    <div class="col-lg-7 p-5 audit-right">
+                        <h1 class="fw-bold mb-3">Get In Touch</h1>
+                      
+                        <form>
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control audit-input" placeholder="Name *">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control audit-input" placeholder="Email Address *">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="tel" class="form-control audit-input" placeholder="Phone Number *">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control audit-input" placeholder="Your City *">
+                                </div>
+                                <div class="col-12">
+                                     <textarea placeholder="Type Your Message" class="form-control audit-input" style="min-height: 60px;"></textarea>
+                                </div>
+                               
+                            </div>
+
+                            <button class="th-btn style-border mt-4">
+                                Submit Form<span class="btn-icon"><img src="assets/img/icon/paper-plane.svg" alt="img"></span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- add popup -->
 
     <!--==============================
     All Js File

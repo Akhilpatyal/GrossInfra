@@ -1397,4 +1397,19 @@
     "max-glare": 0.2, // max glare opacity
     scale: 1, // slightly scale up on hover
   });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  setTimeout(function () {
+    const modalElement = document.getElementById("auditModal");
+    if (modalElement) {
+      const auditModal = new bootstrap.Modal(modalElement);
+      auditModal.show();
+    }
+  }, 8000); // 8 seconds
+});
+
+
+
+
 })(jQuery);
