@@ -43535,6 +43535,17 @@ span.select2-selection.select2-selection--single:focus {
   background-size: cover;
   min-height: 100%;
 }
+.audit-left2 {
+  background-image: 
+  linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.4)
+  ),
+  url('../img/property/property11-5.jpg');
+  background-size: cover;
+  min-height: 100%;
+}
 
 .audit-right {
   background: #fff;
