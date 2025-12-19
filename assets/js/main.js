@@ -1406,10 +1406,28 @@ document.addEventListener("DOMContentLoaded", function () {
       const auditModal = new bootstrap.Modal(modalElement);
       auditModal.show();
     }
+  }, 5000); // 8 seconds
+});
+document.addEventListener("DOMContentLoaded", function () {
+  setTimeout(function () {
+    const modalElement = document.getElementById("auditModal2");
+    if (modalElement) {
+      const auditModal = new bootstrap.Modal(modalElement);
+      auditModal.show();
+    }
   }, 8000); // 8 seconds
 });
 
 
-
+  Fancybox.bind('[data-fancybox="gallery"]', {
+            Thumbs: false,
+            Toolbar: true,
+            animated: true,
+            dragToClose: true,
+            closeButton: "top",
+            Image: {
+                zoom: true,
+            },
+        });
 
 })(jQuery);
