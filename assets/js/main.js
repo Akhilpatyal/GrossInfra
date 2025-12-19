@@ -1398,36 +1398,33 @@
     scale: 1, // slightly scale up on hover
   });
 
-
-document.addEventListener("DOMContentLoaded", function () {
-  setTimeout(function () {
-    const modalElement = document.getElementById("auditModal");
-    if (modalElement) {
-      const auditModal = new bootstrap.Modal(modalElement);
-      auditModal.show();
-    }
-  }, 5000); // 8 seconds
-});
-document.addEventListener("DOMContentLoaded", function () {
-  setTimeout(function () {
-    const modalElement = document.getElementById("auditModal2");
-    if (modalElement) {
-      const auditModal = new bootstrap.Modal(modalElement);
-      auditModal.show();
-    }
-  }, 8000); // 8 seconds
-});
-
+  document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(function () {
+      const modalElement = document.getElementById("auditModal");
+      if (modalElement) {
+        const auditModal = new bootstrap.Modal(modalElement);
+        auditModal.show();
+      }
+    }, 5000); // 8 seconds
+  });
+  document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(function () {
+      const modalElement = document.getElementById("auditModal2");
+      if (modalElement) {
+        const auditModal = new bootstrap.Modal(modalElement);
+        auditModal.show();
+      }
+    }, 5000); // 8 seconds
+  });
 
   Fancybox.bind('[data-fancybox="gallery"]', {
-            Thumbs: false,
-            Toolbar: true,
-            animated: true,
-            dragToClose: true,
-            closeButton: "top",
-            Image: {
-                zoom: true,
-            },
-        });
-
+    Thumbs: false,
+    Toolbar: true,
+    animated: true,
+    dragToClose: true,
+    closeButton: "top",
+    Image: {
+      zoom: true,
+    },
+  });
 })(jQuery);

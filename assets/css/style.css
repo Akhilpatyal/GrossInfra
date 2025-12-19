@@ -43531,7 +43531,7 @@ span.select2-selection.select2-selection--single:focus {
     rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.4)
   ),
-  url('/assets/img/products/mining.jpeg');
+  url('../img/products/mining.jpeg');
   background-size: cover;
   min-height: 100%;
 }
