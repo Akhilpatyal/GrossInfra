@@ -5683,6 +5683,7 @@ hr.title-line {
 
 .box-text {
   margin-bottom: -0.5em;
+  text-align: center;
 }
 
 .btn-group {
@@ -22031,7 +22032,7 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 575px) {
   .process-card .box-content {
-    padding: 21px 21px 17px 44px;
+    padding: 10px 0px 10px 36px!important;
   }
 }
 
@@ -26320,6 +26321,10 @@ span.select2-selection.select2-selection--single:focus {
 .pt-50 {
   padding-top: 50px;
 }
+
+/* .pt-50 {
+  padding-top: 50px;
+} */
 
 /*-- Padding Bottom --*/
 .pb-5 {
@@ -43631,4 +43636,51 @@ span.select2-selection.select2-selection--single:focus {
      .space-top {
         padding-top:40px!important;
     }
+}
+
+@media (max-width: 780px) {
+  /* //pt-sm-2 pb-sm-5 pt-80 */
+  .size-new{
+    padding-top: 20px!important;
+    padding-top: 50px!important;
+  }
+  .img-box6 .img2 {
+
+    width: 100% !important;
+    height: 360px !important;
+}
+.about-area-6.space{
+  padding-bottom: 10px!important;
+}
+.padding-sm-2{
+padding: 20px!important;
+}
+.process-card .box-number {
+    height: 55px;
+    width: 55px;
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 45px;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translate(0px, -50%);
+    z-index: 1;
+    text-align: center;
+    border-radius: 50%;
+    background: rgb(131, 170, 93);
+    border: 6px solid var(--white-color);
+    transition: 0.4s;
+}
+}
+
+.service-card.style4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.service-card .box-title{
+text-align: center;
 }
