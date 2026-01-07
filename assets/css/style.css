@@ -43623,7 +43623,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 
-@media (max-width: 1500px) {
+@media (min-width: 780px) and (max-width: 1500px) {
      .space {
         padding-top:40px!important;
         padding-bottom:40px!important;
