@@ -5644,7 +5644,7 @@ hr.title-line {
 .th-social.style5 a {
   --icon-size: 32px;
   border-radius: 50%;
-  background: transparent;
+  background: #a25826;
   border: 1px solid var(--smoke-color3);
   color: var(--white-color);
 }
@@ -9056,6 +9056,11 @@ ol.wp-block-rss {
 .footer-widget {
   margin-bottom: 50px;
 }
+.footer-widget-update {
+  background-color: #fff!important;
+  padding: 20px!important;
+  color: black;
+}
 
 .footer-widget,
 .footer-widget .widget {
@@ -9255,6 +9260,7 @@ ol.wp-block-rss {
 .th-widget-about .about-text {
   margin-bottom: 30px;
   margin-top: -0.5em;
+  color: black;
 }
 
 .footer-text {
@@ -28395,6 +28401,17 @@ span.select2-selection.select2-selection--single:focus {
   width: 330px !important;
   height: 360px !important;
 }
+.img-box6 .img2 {
+  border-radius: 32px;
+  border: 2px solid var(--white-color);
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  left: -90px;
+  bottom: -200px;
+  width: 330px !important;
+  height: 360px !important;
+}
 
 .img-box6 .img2 img {
   width: 100%;
@@ -43603,4 +43620,15 @@ span.select2-selection.select2-selection--single:focus {
   top: 20px;
   right: 20px;
   z-index: 10;
+}
+
+
+@media (max-width: 1500px) {
+     .space {
+        padding-top:40px!important;
+        padding-bottom:40px!important;
+    }
+     .space-top {
+        padding-top:40px!important;
+    }
 }
